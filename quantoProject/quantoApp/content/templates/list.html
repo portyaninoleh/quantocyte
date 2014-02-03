@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block head %}
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/jqx.base.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_URL }}css/custom.css" type="text/css" />
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxcore.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxdata.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxbuttons.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxscrollbar.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxmenu.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxlistbox.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxdropdownlist.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxgrid.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxgrid.selection.js"></script> 
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxgrid.columnsresize.js"></script> 
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxgrid.filter.js"></script> 
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxgrid.sort.js"></script> 
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxgrid.pager.js"></script> 
+    <script type="text/javascript" src="{{ STATIC_URL }}js/jqxgrid.grouping.js"></script> 
+{% endblock %}
+{% block  body%}
+<nav class="navbar navbar-default" role="navigation">
+<ul class="nav navbar-nav navbar-right">
+    <li><a href="/logout/">Logout</a> </li>
+</ul>
+</nav>
+<div id="jqxgrid">
+</div>
+{% endblock %}
