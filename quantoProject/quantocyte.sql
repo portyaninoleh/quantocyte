@@ -1,8 +1,8 @@
--- MySQL dump 10.13  Distrib 5.5.35, for debian-linux-gnu (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.32, for debian-linux-gnu (x86_64)
 --
 -- Host: localhost    Database: quantocyte
 -- ------------------------------------------------------
--- Server version	5.5.35-0ubuntu0.12.04.1
+-- Server version	5.5.32-0ubuntu0.12.04.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -127,7 +127,7 @@ CREATE TABLE `auth_user` (
 
 LOCK TABLES `auth_user` WRITE;
 /*!40000 ALTER TABLE `auth_user` DISABLE KEYS */;
-INSERT INTO `auth_user` VALUES (1,'pbkdf2_sha256$12000$GeL8gw2MVUpP$DGUPNh/Ij86Z90jOv4WxChbWP55eVQU/QiVFf5OqJ3s=','2014-02-03 22:44:06',1,'admin','','','admin@admin.com',1,1,'2014-02-03 16:24:49');
+INSERT INTO `auth_user` VALUES (1,'pbkdf2_sha256$12000$GeL8gw2MVUpP$DGUPNh/Ij86Z90jOv4WxChbWP55eVQU/QiVFf5OqJ3s=','2014-02-04 09:04:32',1,'admin','','','admin@admin.com',1,1,'2014-02-03 16:24:49');
 /*!40000 ALTER TABLE `auth_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -271,7 +271,7 @@ CREATE TABLE `django_session` (
 
 LOCK TABLES `django_session` WRITE;
 /*!40000 ALTER TABLE `django_session` DISABLE KEYS */;
-INSERT INTO `django_session` VALUES ('6utey6mfb03cut7w4mtygrys0b4uj7ao','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:20:18'),('7p0v16f23jhaax96uyfptcygeapq24cj','YzM4ZGE2YmMwYmFjMWFmYjFmM2IzYzMyZGI3ZGNjM2Y2MjViMWZhNzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0=','2014-02-17 22:44:06'),('kvi97tph7bfi9ftadgcwt5f0h1y72xmd','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:28:10'),('mrb7bncbxmgdp4kl93uq8utszqe59yoq','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:24:19'),('o7v8qsfc24kqe9tn30xb40nyj2v8wk2m','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:24:53'),('onp3bee3tvx5xq0g0bfq64r6sc00ldz6','YzM4ZGE2YmMwYmFjMWFmYjFmM2IzYzMyZGI3ZGNjM2Y2MjViMWZhNzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0=','2014-02-17 21:46:26'),('os2dfbu2ysgzj0vcfizwf32bpqxwjue2','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:27:35'),('yfi0gma3x90emquq1jkb7m1p9ncpilyl','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:21:28');
+INSERT INTO `django_session` VALUES ('6utey6mfb03cut7w4mtygrys0b4uj7ao','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:20:18'),('7p0v16f23jhaax96uyfptcygeapq24cj','YzM4ZGE2YmMwYmFjMWFmYjFmM2IzYzMyZGI3ZGNjM2Y2MjViMWZhNzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0=','2014-02-17 22:44:06'),('kvi97tph7bfi9ftadgcwt5f0h1y72xmd','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:28:10'),('mrb7bncbxmgdp4kl93uq8utszqe59yoq','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:24:19'),('o7v8qsfc24kqe9tn30xb40nyj2v8wk2m','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:24:53'),('onp3bee3tvx5xq0g0bfq64r6sc00ldz6','YzM4ZGE2YmMwYmFjMWFmYjFmM2IzYzMyZGI3ZGNjM2Y2MjViMWZhNzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0=','2014-02-17 21:46:26'),('os2dfbu2ysgzj0vcfizwf32bpqxwjue2','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:27:35'),('w506cqtioby5qfgn7274nvlooxv2ayw8','YzM4ZGE2YmMwYmFjMWFmYjFmM2IzYzMyZGI3ZGNjM2Y2MjViMWZhNzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6MX0=','2014-02-18 09:04:32'),('yfi0gma3x90emquq1jkb7m1p9ncpilyl','YWM1YmE5NzA0YWE1NzdjZjZiMGY5ODRlNGEwOTgzNjBlZjM5NWQ2ZDp7fQ==','2014-02-17 17:21:28');
 /*!40000 ALTER TABLE `django_session` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -298,6 +298,32 @@ LOCK TABLES `quantoApp_items` WRITE;
 INSERT INTO `quantoApp_items` VALUES (1,'item1'),(2,'item2'),(3,'item3'),(4,'item4'),(5,'item5');
 /*!40000 ALTER TABLE `quantoApp_items` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Table structure for table `south_migrationhistory`
+--
+
+DROP TABLE IF EXISTS `south_migrationhistory`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `south_migrationhistory` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `app_name` varchar(255) NOT NULL,
+  `migration` varchar(255) NOT NULL,
+  `applied` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `south_migrationhistory`
+--
+
+LOCK TABLES `south_migrationhistory` WRITE;
+/*!40000 ALTER TABLE `south_migrationhistory` DISABLE KEYS */;
+INSERT INTO `south_migrationhistory` VALUES (1,'quantoApp','0001_db_schema','2014-02-04 09:00:58');
+/*!40000 ALTER TABLE `south_migrationhistory` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -308,4 +334,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-02-04  0:45:36
+-- Dump completed on 2014-02-04 11:24:41
